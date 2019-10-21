@@ -32,3 +32,37 @@ References: Material from IT 340 as well as Google definitions (https://www.goog
 **Image:**
 
 ![Image of Yaktocat](https://octodex.github.com/images/yaktocat.png)
+
+# Kofi's Work(GitFlow/git terms)
+
+1. Repository is a place where all changes made to your files in a project is stored over time. It is a place where data and code is stored for projects.
+
+2. Clone is a git command line which is used to clone or copy an existing repository. To use clone, you type $ git clone <url of the repository you cloned> + the place you want to clone it 
+
+3. Fork is a copy of a repositoy, it allows you to make changes to a project without affecting the original project. to use fork in github you go to the repository you want to fork and click the fork button in the top right side.
+
+4. Branch is a git command that lets you create a new branch or timeline of commits, changes and file additions that are complety your won. A branch represents a series of commits.  To use branch you type $ git branch-d 
+
+5. Commit is a git command used to save your changes to a local repository or to make changes to a repository. To use git commit, you type $ git commit -m  
+
+6.Merge is a git command that allows you to take multiple different branches and integrate them together into a single branch. To use merge, you type $ git merge origin/master
+
+7. Checkout is a git command that lets you navigate between branches. Checkout makes sure the branch files is up to date with the version stored in a branch. to use checkout, you type $ git checkout-b
+
+8. Push is a git command that is used to upload local repository to a remote repository. Push command is how you transfer commits from your local repository to a remote repository. to use git push, you type $ git push origin master
+
+9. Pull is a command that is used to get and download content from a remote repository. Then update the local repository to match the content. To use git pull, you type $ git pull origin master
+
+10. Remote Add/Remove/show  is a git commad on how to manage remote repositories. It lets you create, view and delete changes to alter a repository. to use remote, ypu type $ git remote add origin <link>
+
+11. Status  is a git command that displays the state of the working directory and the staging area. Git status lets you see what changes have occured and which files have been uploaded. $ git status
+ 
+12. Master branch- is the default branch. The master branch is the original repository that is cloned or forked to create new branches. Master branch appers when making commits to a local repository. 
+
+# Git flow
+Git flow is a branching model for Git, it is best suited for projects that have a scheduled release cycle. Gitflow assigns specific roles to differetn branches and how to merge branches together. Gitflow makes collaborating on a project much easier and it allows to follow that others are doing in your project. 
+
+References: atlassian.com and google
+
+
+
